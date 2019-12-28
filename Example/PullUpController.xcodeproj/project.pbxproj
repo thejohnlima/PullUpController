@@ -21,7 +21,7 @@
 		293D0A2418F9B613A61561F3 /* PullUpController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PullUpController.podspec; path = ../PullUpController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56A8923EF4695AE64CB0A36A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5F0B85693EE28EE7439643E7 /* Pods_PullUpController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PullUpController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* PullUpController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullUpController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* PullUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D13751B90ADB8E6A7085A3F /* Pods-PullUpController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullUpController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PullUpController_Example/Pods-PullUpController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		94B8AB427B262E433795430A /* Pods-PullUpController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullUpController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PullUpController_Tests/Pods-PullUpController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* PullUpController_Example.app */,
+				607FACD01AFB9204008FA782 /* PullUp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			);
 			name = PullUpController_Example;
 			productName = PullUpController;
-			productReference = 607FACD01AFB9204008FA782 /* PullUpController_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* PullUp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -370,7 +370,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PullUp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -385,7 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PullUp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
